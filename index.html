@@ -1,0 +1,1014 @@
+import 
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Jamil Raza Attari - Data Scientist & AI Engineer</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-pzw7Z4lBk+8dYcM2N8r2+Z89mZ6ym+Jv8LuGMhQ7l1zZIp9Jy2FJ6iKX4d1svYMJ3yF1D1+P/BvOLuH+azfK7Q=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  </head>
+  <body>
+    <!-- Animated Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+      <div class="nav-container">
+        <a href="#home" class="logo">MA</a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="profile-image">👨‍💻</div>
+        <h1>M.Jamil Raza Attari</h1>
+        <p class="subtitle">Data Scientist • AI Engineer • Data Analyst</p>
+        <p class="description">
+          Transforming data into actionable insights and building intelligent
+          systems that drive business growth
+        </p>
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+        </div>
+      </div>
+    </section>
+
+    <div class="container">
+      <!-- About Section -->
+      <section id="about" class="section fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="my_pic.jpg" alt="my_pic" width="400px" height="500px" />
+          </div>
+          <div class="about-text">
+            <p>
+              I am Muhammad Jamil Raza Attari, an aspiring Data Scientist, AI
+              Engineer and Data Analyst dedicated to leveraging statistical
+              analysis and Python programming to create impactful solutions. My
+              strengths lie in developing comprehensive machine learning
+              workflows that encompass data cleaning, feature engineering, model
+              development, evaluation and deployment. I am committed to
+              translating complex insights into clear, actionable
+              recommendations that drive informed decisions for stakeholders. I
+              have a solid technical toolkit that includes Pandas, NumPy,
+              Scikit-Learn, TensorFlow, Power BI and Tableau. Additionally, I
+              utilize Streamlit, Gradio, and basic Next.js for effectively
+              showcasing and deploying my projects, ensuring that my work is
+              accessible and valuable to a wider audience.
+            </p>
+
+            <p>
+              My journey into coding began quite by accident, filled with more
+              setbacks than successes. I grew up in an English medium school
+              where Urdu and Islamic Studies were not emphasized. When I took my
+              intermediate exams, I unexpectedly failed both of my
+              native-language papers. Just as I was regrouping, the COVID-19
+              pandemic struck, delaying my HSC attempts for nearly three years.
+              Faced with this uncertainty, my father encouraged me to explore
+              computer science, even though I felt it wasn't for me and worried
+              I would struggle without a formal background in the field.
+              However, I signed up for a six-month web development boot camp,
+              where I learned HTML, CSS, JavaScript, PHP, and WordPress.
+              However, I never quite found my passion there. Undeterred, I then
+              enrolled in a governance initiative IT program, diving into
+              TypeScript and Next.js, only to realize that without a solid
+              foundation, the concepts were difficult for me to grasp. That's
+              when I discovered data science and thought, “If I can master
+              Python, maybe I can bridge the gap between my commerce background
+              and the technical world.” By chance, I landed in the Saylani Mass
+              IT Training program, where I took my first real plunge into Python
+              for data analytics. Suddenly, I was energized by exploratory data
+              analysis, statistical modeling, and the power of data to tell
+              compelling stories. My commerce studies had taught me to think in
+              business terms, and now I could combine that mindset with coding.
+              Each challenge I faced, from failing my native language exams,
+              navigating unfamiliar courses, and adapting to remote learning has
+              sharpened my resilience. Today, I aspire not only to excel as a
+              Data Scientist, AI Engineer, or Data Analyst but also to grow into
+              a leadership role. My goal is to guide teams in harnessing data
+              and AI to solve real-world problems and create opportunities for
+              others who, like me, come from underprivileged beginnings.
+            </p>
+
+            <div class="skills-grid">
+              <div class="skill-item">
+                <h4>Machine Learning</h4>
+                <p>Scikit-learn, TensorFlow, PyTorch</p>
+              </div>
+              <div class="skill-item">
+                <h4>Data Analysis</h4>
+                <p>Python, SQL, Pandas</p>
+              </div>
+              <div class="skill-item">
+                <h4>Visualization</h4>
+                <p>Tableau, Power BI, Matplotlib, Seaborn</p>
+              </div>
+              <div class="skill-item">
+                <h4>Cloud Platforms</h4>
+                <p>AWS (Learning)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="section fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="space.png" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                SpaceX Launch Analysis & Prediction Dashboard
+              </h3>
+              <p class="project-description">
+                This project is an end-to-end machine learning solution that
+                predicts the success of SpaceX launches, integrated into an
+                interactive Streamlit dashboard. It fetches real-time data from
+                the SpaceX API including launch details, rocket types and
+                launchpad information and enhances it with simulated weather
+                data (temperature, wind speed, and conditions) tied to launch
+                dates and locations. The train_model.py script processes this
+                data, encoding categorical variables like rocket and launchpad
+                names with LabelEncoder, and trains a Random Forest Classifier
+                on features such as weather conditions and temporal factors
+                (year, month, day). The trained model and encoders are saved for
+                deployment. The Streamlit app then loads these artifacts to
+                offer a user-friendly interface with data filtering (by year and
+                site), a Folium map visualizing launch site success rates, and
+                analytical tabs showing rocket performance, weather impacts, and
+                feature correlations. Users can also input custom parameters to
+                predict launch success probabilities. This project impacts space
+                enthusiasts and analysts by providing actionable insights into
+                launch success factors, demonstrating robust data processing and
+                machine learning pipelines, and offering an engaging tool for
+                exploration all with a modular, maintainable codebase that could
+                be extended with real weather data or advanced models.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-ai-hackathon-spacex-index-rcj4ga.streamlit.app/"
+                  class="project-link"
+                  target="_blank"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/AI_hackathon_SpaceX.git"
+                  class="project-link"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="heart.png" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                Heart Disease Dashboard & Prediction
+              </h3>
+              <p class="project-description">
+                This project develops a predictive model and interactive
+                dashboard for heart disease diagnosis, utilizing a dataset of
+                1,025 patient records with features such as age, cholesterol and
+                blood pressure. The code preprocesses the data by removing
+                duplicates, splits it into training and test sets, and trains a
+                Logistic Regression model to classify patients as having or not
+                having heart disease, achieving an accuracy of 80-87% with
+                k-fold cross-validation, which validates its robustness. The
+                Streamlit application enhances this by offering a user-friendly
+                interface with visualizations—such as target distribution,
+                age-cholesterol scatter plots, and correlation
+                heatmaps—alongside a prediction tool where users input patient
+                data to receive real-time risk assessments with probability
+                scores. This project impacts healthcare by providing an
+                accessible tool for early detection, demonstrating proficiency
+                in machine learning and data visualization, and offers potential
+                for expansion with feature scaling or advanced models to address
+                convergence warnings.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-heart-problem-streamlit-main-ks62ah.streamlit.app/"
+                  class="project-link"
+                  target="_blank"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/Heart_Problem_Streamlit.git"
+                  class="project-link"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="reales.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                Real Estate Price Prediction Dashboard
+              </h3>
+              <p class="project-description">
+                This project provides an interactive Streamlit dashboard for
+                predicting real estate prices using a Random Forest Regressor,
+                built on a dataset of house prices per unit area that includes
+                features like distance to MRT stations and the number of
+                convenience stores. The code preprocesses data by converting
+                fractional transaction dates into datetime objects and
+                extracting the year and month, then trains a tuned model with
+                GridSearchCV to optimize hyperparameters, achieving high
+                R-squared scores on both training (up to 0.9) and test sets. The
+                dashboard offers a comprehensive overview with data summaries,
+                exploratory visualizations (such., house price distribution and
+                geographic plots), model performance metrics, and a prediction
+                tool where users input property details to receive real-time
+                price estimates. This project benefits real estate stakeholders
+                by providing a data-driven pricing tool, demonstrates advanced
+                machine learning techniques and data visualization skills, and
+                could be further improved with additional features like
+                real-time market data integration.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-realestate-streamlit-pridection-main-eaae4k.streamlit.app/"
+                  class="project-link"
+                  target="_blank"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/RealEstate_Streamlit_Pridection.git"
+                  class="project-link"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="DataSweep.png" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Data Sweeper</h3>
+              <p class="project-description">
+                Data Sweeper, allows users to upload CSV or Excel files, preview
+                their data, and clean it by removing duplicates or filling in
+                missing values. Users can also visualize numeric columns using
+                built-in bar charts. After refining the data, it offers the
+                option to select specific columns and easily convert the cleaned
+                data back to CSV or Excel for download, all within a responsive
+                and user-friendly wide-layout interface.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-data-analysis-streamlit-app-soye3w.streamlit.app/"
+                  class="project-link"
+                  target="_blank"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/Data_Analysis_Streamlit.git"
+                  class="project-link"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="churn_tel.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Churn Scope</h3>
+              <p class="project-description">
+                In the competitive landscape of the telecommunications industry,
+                customer churn where customers discontinue their services
+                represents a critical challenge, leading to significant revenue
+                loss and reduced market share. This project is designed to
+                address this issue by harnessing the power of machine learning
+                to predict customer churn. By analyzing a comprehensive dataset
+                that includes factors such as customer tenure, subscribed
+                services and payment methods, the project employs logistic
+                regression and decision tree classifiers to pinpoint customers
+                at risk of leaving. Ultimately, it achieves the ability to
+                provide actionable insights, enabling the company to implement
+                targeted retention strategies. By solving the problem of
+                unpredictable customer loss, the project helps reduce churn
+                rates, enhance customer loyalty, and drive overall business
+                success.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Numpy</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/ML_Assignment_customer_churn_using_logistic_regression_and_decision_tree_classifiers.git"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/ML_Assignment_customer_churn_using_logistic_regression_and_decision_tree_classifiers.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="sur.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Survival Analytics</h3>
+              <p class="project-description">
+                Harnessing clinical and demographic data from over 4,000 breast
+                cancer cases, this project builds a Logistic Regression model to
+                predict patient survival status with 90% accuracy. After
+                rigorous data cleaning and mapping categorical fields like race,
+                tumor stage and hormone receptor status to numeric values and
+                encoding nuanced features such as differentiation grade the
+                pipeline trains and evaluates on an 80/20 split, achieving
+                strong recall for survivors and meaningful precision on high
+                risk cases. A detailed confusion matrix and classification
+                report reveal the model's robust ability to distinguish between
+                “Alive” and “Dead” outcomes, while feature coefficients shed
+                light on how age, tumor size and lymph node involvement drive
+                predictions.View the full code and methodology on GitHub and
+                discover how data-driven clinical decision support can improve
+                patient outcomes.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Numpy</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/ML_Assignments_Logistic_R_Clasfition.git"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/ML_Assignments_Logistic_R_Clasfition.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="stu_gra.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">GradeFlow</h3>
+              <p class="project-description">
+                This is Student Performance Predictor cleans and preprocesses
+                over 197,000 grade records handling mixed type periods, recoding
+                KG / UE grade levels, and dropping out-of-range percentages—into
+                a structured numeric dataset. Categorical features like class
+                type, school name, and support program flags are label encoded,
+                then all predictors are standardized to ensure fair weighting. A
+                simple Linear Regression model is trained on a 70/30 split to
+                forecast each student's percentage score based on their grade
+                level, class period, subject and demographic flags. Despite
+                modest R² values (~0.06), the pipeline demonstrates robust data
+                wrangling, encoding, scaling, and model evaluation workflows in
+                Python. Overall, this project showcases practical skills in
+                pandas driven cleaning, sklearn preprocessing, and regression
+                modeling for educational analytics.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Numpy</span>
+                <span class="tech-tag">Scikit-learn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/ML_Assingment_StudentGradesAndPrograms.git"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/ML_Assingment_StudentGradesAndPrograms.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="sentimen.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Twitter Sentiment Classifier</h3>
+              <p class="project-description">
+                This end to end Twitter sentiment analysis pipeline ingests raw
+                tweet data and meticulously cleans it into a unified “Reviews”
+                column, ready for feature extraction. Leveraging NLTK's VADER,
+                each tweet is scored and bucketed into nuanced sentiment
+                categories—ranging from “Full Negative” to “Full Positive” then
+                visualized through bar and pie charts alongside scatter plots
+                that reveal score distributions. The workflow seamlessly handles
+                missing values, encodes categorical labels, and transforms text
+                into TF-IDF vectors to capture linguistic importance. A Logistic
+                Regression classifier, trained on an 80/20 split, achieves
+                nearly 77% accuracy at predicting sentiment classes,
+                demonstrating solid performance on real world social media data.
+                Overall, this project highlights skills in Python data
+                wrangling, NLP sentiment scoring, data visualization, and
+                machine learning model development within a clear, reproducible
+                notebook.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NLTK</span>
+                <span class="tech-tag">Scikit-learn</span>
+                <span class="tech-tag">Matplotlib</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/SentimentAnalysis_ZA_Project.git"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/SentimentAnalysis_ZA_Project.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="encrip.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Secure Data Encryption System</h3>
+              <p class="project-description">
+                This Streamlit application delivers a robust, end to end secure
+                vault where users can register and authenticate with salted,
+                PBKDF2-hashed passwords stored in a JSON backend. Once logged
+                in, each user enjoys an intuitive sidebar menu to insert and
+                retrieve personal notes encrypted via Fernet with keys derived
+                from their passkey and salt. A built-in lockout mechanism tracks
+                failed attempts, enforcing a configurable timeout after three
+                incorrect passkeys to safeguard against brute-force attacks.
+                Under the hood, utility functions handle salt generation,
+                password hashing, and AES-style encryption/decryption
+                seamlessly, while session state preserves user context
+                throughout navigation. Overall, this project showcases a fusion
+                of cryptographic best practices, thoughtful UX design, and clean
+                Python code—all wrapped in a sleek, gradient-accented interface.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">hashlib</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-secure-data-encryption-system-using-s-index-cv6kpx.streamlit.app/"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/Secure-Data-Encryption-System-Using-Streamlit.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="pass_gen.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Password Strength Meter</h3>
+              <p class="project-description">
+                A sleek, user focused web app built with Streamlit and Python,
+                this project showcases my ability to blend security best
+                practices with immersive UI design. I implemented a robust
+                password strength algorithm that scores against length,
+                character variety, and a blacklist of common passwords providing
+                real time feedback via progress bars, contextual suggestions and
+                celebratory animations. The companion password generator
+                enforces complexity by including uppercase, lowercase, digits
+                and special characters, then shuffles them for true randomness.
+                Custom CSS gradients, animated headers, and interactive sidebar
+                navigation demonstrate my frontline skills in HTML/CSS
+                injection, responsive design and seamless user experiences. This
+                project reflects my strengths in full-stack development, UI/UX
+                finesse, and cybersecurity awareness.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-password-generator-with-streamlit--index-76gbyk.streamlit.app/"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/Password-Generator-with-Streamlit-.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="lib.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Personal Library Management System</h3>
+              <p class="project-description">
+                This Streamlit based Personal Library Management System offers a
+                vibrant, gradient soaked interface that makes organizing your
+                book collection as enjoyable as reading itself. A color-rich
+                sidebar and animated header guide users through six intuitive
+                menu options from adding and deleting books to searching,
+                listing, and even generating reading statistics each enhanced
+                with playful emojis for instant visual cues. Under the hood,
+                session state and simple JSON storage ensure that every book
+                entry is preserved between visits, while form validation and
+                duplicate checks keep your library clean and accurate.
+                Interactive expanders and dynamic metrics panels transform raw
+                data into digestible insights showing total counts, read versus
+                unread breakdowns, and read through percentages at a glance.
+                Altogether, this project demonstrates a seamless fusion of
+                frontend flair and backend simplicity, highlighting proficiency
+                in Python, Streamlit and user centric design.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-personal-library-system-streamlit--index-j2cpsh.streamlit.app/"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/Personal_Library_System_Streamlit-.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="unit_con.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Universal Unit Converter</h3>
+              <p class="project-description">
+                This Streamlit powered Universal Unit Converter combines a
+                sleek, gradient-infused UI with a highly intuitive sidebar for
+                selecting among ten different measurement categories from length
+                and weight to digital storage and energy. Custom CSS styling
+                brings each section to life with animated headers, soft shadows,
+                and responsive buttons that gently scale on hover, making
+                interactions both engaging and visually appealing. Behind the
+                scenes, a suite of conversion utilities handles all the heavy
+                lifting, seamlessly translating input values between units with
+                just a single click. Thoughtfully placed emojis and animated
+                result boxes not only guide users through each conversion step
+                but also inject a touch of personality into what might otherwise
+                be a purely functional tool. Overall, this project showcases a
+                harmonious blend of front-end flair and back-end precision,
+                demonstrating both design sensibility and programming expertise
+                in Python and Streamlit.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Streamlit</span>
+                <span class="tech-tag">CSS</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://jamilraza001-unit-converter-with-streamlit-index-jvlafq.streamlit.app/"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/Unit-Converter-with-Streamlit.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img
+                src="Custumer_Analysis.png"
+                alt=""
+                width="100%"
+                height="auto-fit"
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Data_Analysis_Customers</h3>
+              <p class="project-description">
+                This project delivers an end to end exploration of customer
+                demographics by blending robust data processing with rich visual
+                storytelling. Leveraging pandas, it ingests and cleans raw
+                customer records to uncover patterns in gender balance,
+                pinpointing not only overall male to female ratios but also how
+                these shift across defined life stages. Through dynamic age
+                group segmentation, the analysis surfaces nuanced insights
+                highlighting, for instance, the concentration of young adults in
+                specific regions and the rising prevalence of older cohorts in
+                others.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/Data_Analysis_Customers_assignment.git"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/Data_Analysis_Customers_assignment.git"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="Doll to Dec.PNG" alt="" width="100%" height="auto-fit""
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">
+                From Dollars to Decades: GDP's Impact on Life Expectancy
+              </h3>
+              <p class="project-description">
+                I conducted a comprehensive analysis of global country data to
+                uncover the relationship between economic output and population
+                health. First, I ingested and cleaned the dataset using pandas
+                and NumPy, then calculated life expectancy quartiles to group
+                countries by health outcomes. Next, I visualized the
+                distribution of life expectancy across all nations and
+                separately for high and low GDP groups—using annotated
+                histograms in Seaborn to highlight key differences. To deepen
+                the insight, I identified countries that outperformed or
+                underperformed their economic peers by examining life expectancy
+                thresholds within each GDP bracket. This project demonstrates my
+                ability to blend data manipulation, statistical summarization,
+                and clear visual storytelling to extract meaningful patterns
+                from complex datasets.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+                <span class="tech-tag">NumPy</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment5"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment5"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="Income_USA.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">
+                Mapping Income & Gender: A State Level Census Analysis
+              </h3>
+              <p class="project-description">
+                I combined ten state level CSVs into a unified US census
+                DataFrame, then cleaned and transformed demographic
+                fields—stripping percentage signs, parsing gender counts, and
+                converting income to numeric—to ensure accurate analysis. By
+                calculating the female population share per state, I plotted a
+                clear scatterplot of average state income against women's
+                proportion, revealing correlation trends across 51 states. I
+                also prepared histograms of key demographic variables (race
+                percentages, income, gender counts) to examine their
+                distributions and identify outliers. This project demonstrates
+                end to end data engineering skills merging multiple sources,
+                rigorous type casting, and handling duplicates—alongside
+                exploratory visual analytics using matplotlib and Seaborn. The
+                outcome provides actionable insights into socio economic
+                patterns and supports data driven policy discussions.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">Matplotlib</span>
+                <span class="tech-tag">Seaborn</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment1"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment1"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="inven.PNG" alt="" width="100%" height="auto-fit" />
+            </div>
+
+            <div class="project-content">
+              <h3 class="project-title">
+                Queens Inventory Insights: Valuation & Stock Status
+              </h3>
+              <p class="project-description">
+                I conducted a location wise inventory audit for a garden supply
+                chain, focusing on Queens's nine product lines. First, I loaded
+                and inspected the CSV data to capture key fields product type,
+                description, quantity, and price and filtered for Queens
+                entries. Next, I flagged stock availability with an in_stock
+                boolean and calculated each item's total_value (quantity *
+                price), revealing top value SKUs like wheelbarrows worth $8,819
+                and terracotta planters at $1,565. I also identified out of
+                stock concerns—Queens's insect killer is currently unavailable
+                enabling targeted restocking actions. Finally, I enriched labels
+                by concatenating product_type and product_description into a
+                full_description field for streamlined reporting and
+                searchability.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment2"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment2"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-image">
+              <img src="e-com_funnel.png" alt="" width="100%" height="auto-fit""
+              />
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">E-Commerce Funnel Analysis</h3>
+              <p class="project-description">
+                I performed an end to end funnel analysis of user behavior on an
+                e-commerce site by integrating four timestamped datasets—visits,
+                cart additions, checkouts, and purchases using pandas and NumPy.
+                After merging and cleaning the data, I calculated stage to stage
+                conversion rates, revealing that only 17.4% of visitors added
+                items to their carts, making it the biggest drop off point. I
+                then examined the checkout to purchase transition, finding an
+                impressive 83.1% completion rate among those who reached the
+                checkout page. To understand user pace, I converted timestamps
+                to time deltas and computed the average time from initial visit
+                to final purchase just under 44 minutes. This project showcases
+                my ability to wrangle multi-table event data, quantify key
+                performance metrics, and surface actionable insights for
+                optimizing the sales funnel.
+              </p>
+              <div class="project-tech">
+                <span class="tech-tag">Python</span>
+                <span class="tech-tag">Pandas</span>
+                <span class="tech-tag">NumPy</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment3"
+                  class="project-link"
+                  >View Demo</a
+                >
+                <a
+                  href="https://github.com/JamilRaza001/ZA_Pandas-Data-Analysis-Assignments/tree/main/PandasAssignments/Assignment3"
+                  class="project-link"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience Section -->
+      <section id="experience" class="section fade-in">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Data Analytics Job Simulation on Forage</h3>
+              <h4>Deloitte Australia August 2025</h4>
+              <p>
+                <ul>
+                  <li>Completed a Deloitte job simulation involving data analysis and forensic technology</li>
+                  <li>Created a data dashboard using Tableau</li>
+                  <li>Used Excel to classify data and draw business conclusions</li>
+                </ul>
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Business Development Officer</h3>
+              <h4>Habib Bank Limited (HBL) Jan 2024-May 2024</h4>
+              <p>
+                <ul>
+                  <li>Developed and implemented strategies to acquire new clients</li>
+                  <li>Conducted market research to identify potential business opportunities</li>
+                  <li>Collaborated with cross-functional teams to enhance customer experience</li>
+                  <li >Find and engage new clients.</li>
+                  <li>Network to hit sales targets and expand presence. </li>
+                </ul>
+
+              </p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <h3>Customer Services Representative</h3>
+              <h4>ibex. Pakistan June 2024-Oct 2024</h4>
+              <p>
+                <ul>
+               <li>Resolved 200+ daily inquiries using active listening and empathy.</li>
+               <li>Flagged and fixed recurring issues to improve processes and experience. </li>
+               <li>Assisted customers via email, chat, and phone across diverse demographics.</li>   
+                </ul>
+              </p>
+            </div>
+          </div>
+        
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="section fade-in">
+        <h2 class="section-title">Let's Work Together</h2>
+        
+          <div class="contact-info">
+            <h3>Get in Touch</h3>
+            <div class="contact-item">
+              <span><i class="fas fa-envelope"></i></span>
+              <div>
+                <h4>Email</h4>
+                <p>jamilraza001@email.com</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span><i class="fas fa-phone"></i></span>
+              <div>
+                <h4>Phone</h4>
+                <p>+92 (310) 311-8833</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span><i class="fab fa-linkedin-in"></i></span>
+              <div>
+                <h4>LinkedIn</h4>
+                <p><a href="https://www.linkedin.com/in/jamilrazaa" target="_blank">linkedin.com/in/jamilrazaa</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span><i class="fab fa-github"></i></span>
+              <div>
+                <h4>GitHub</h4>
+                <p><a href="https://github.com/JamilRaza001" target="_blank">github.com/JamilRaza001</a></p>
+              </div>
+            </div>
+          </div>        
+      </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>
+          &copy; 2025 Muhammad Jamil Raza Attari. All rights reserved. Built with passion for
+          data and AI.
+        </p>
+      </div>
+    </footer>
+
+    <script src=" https:\\cdnjs.com\libraries\font-awesome"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0."></script>
+    <script src="script.js">
+ </script>
+  </body>
+</html>
